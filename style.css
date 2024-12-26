@@ -1,0 +1,25 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #4f46e5, #3b82f6);
+}
+
+button {
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+}
